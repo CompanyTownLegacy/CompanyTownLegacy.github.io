@@ -1,0 +1,51 @@
+# collectionbuilder-gh
+# a Jekyll Digital Collection Generator
+# designed for GitHub Pages
+
+# Site settings
+
+# title of site appears in banner
+title: Company Town Legacy
+# tagline appears in banner
+tagline: a theme for building simple digital exhibits
+# description appears in meta tags and other locations
+# this description might appear in search result lists, keep around 160 characters max
+description: "CollectionBuilder-GH is a template for creating small digital collection exhibits on GitHub Pages designed for teaching digital library skills"
+# keywords appear in meta tags
+keywords: "university of idaho, digital collections, digital humanities"
+# creator of the digital collection, to appear in meta tags
+author: Diane Kelly-Riley
+# creator contact email for meta tags
+email: ewilliamson@uidaho.edu
+# collection project date, when did you publish this
+collection-date: "2019"
+
+# url is your gh-pages base, following the pattern: username.github.io
+url: https://CompanyTownLegacy.github.io
+# baseurl is your github repository's name prefixed with a /
+baseurl: /
+# repository is the github repository's full url
+repository: https://github.com/CompanyTownLegacy.github.io
+
+# Theme Options
+# navbar text color
+# Choose from "navbar-light" for use with light background colors, or "navbar-dark" for dark background colors
+navbar-color: navbar-dark
+# navbar background color
+# Choose from bg-primary, bg-secondary, bg-success, bg-danger, bg-warning, bg-info, bg-light, bg-dark, bg-white
+navbar-background: bg-secondary
+# theme with Bootswatch (https://github.com/thomaspark/bootswatch)
+# Choose from: cerulean; cosmo; cyborg; darkly; flatly; journal; litera; lumen; lux; materia; minty; pulse; sandstone; simplex; sketchy; slate; solar; spacelab; superhero; united; yeti 
+bootswatch: # leave blank or comment out for plain bootstrap
+
+# google services [optional!]
+# leave these blank or comment out to NOT include google code
+google-tracking-id: 
+# google-cse-id: "002151703305773322890:1pu3smhw1t8"
+
+# build settings
+permalink: pretty
+
+# Note: use environment variable on build command to include analytics
+# JEKYLL_ENV=production jekyll build
+# (this is done automatically by gh-pages build)
