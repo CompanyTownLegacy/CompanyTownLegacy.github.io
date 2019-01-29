@@ -10,7 +10,7 @@ featured-image: "objects/test001.jpg"
 
 # About {{ site.title }}
 
-This site is generated using `collectionbuilder-gh`, a project to generate a free and simple digital collection using [GitHub Pages](https://pages.github.com/) from:
+This site is about Potlatch Idaho.   a project to generate a free and simple digital collection using [GitHub Pages](https://pages.github.com/) from:
 
 - a CSV of collection metadata
 - a folder of JPEG images or PDF documents
