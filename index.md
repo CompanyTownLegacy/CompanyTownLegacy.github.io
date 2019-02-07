@@ -2,7 +2,7 @@
 layout: home-infographic
 title: Home
 # add banner image to index page 
-banner-image: "objects/test001.jpg"
+banner-image: "objects/front.png"
 # add top subjects, for list see data/subjects.csv, if left blank will auto generate top 6
 # featured-subjects: "Buildings; Campuses; Picture postcards; County courthouses; Farms; Schools"
 # add top locations, for list see data/places.csv
