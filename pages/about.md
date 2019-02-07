@@ -10,27 +10,14 @@ featured-image: "objects/test001.jpg"
 
 # About {{ site.title }}
 
-This site is about Potlatch Idaho.   a project to generate a free and simple digital collection using [GitHub Pages](https://pages.github.com/) from:
+Welcome to Company Town Legacy, a site that documents the history of Potlatch, Idaho.   
 
-- a CSV of collection metadata
-- a folder of JPEG images or PDF documents
+`Company Town Legacy` is a place that explores what happens to a company town when the company leaves.
 
-`collectionbuilder-gh` is intended as a simple template for hands-on teaching about digital libraries.
-It can be used in a workshop setting to take participants through digitization and metadata creation, to having a live collection site hosted on GitHub.
-
-Similar learning experiences use [Omeka](https://omeka.org/) or other DAMS/[CMS](https://en.wikipedia.org/wiki/Content_management_system) platforms that are overkill for one off projects.
-Although CMS feature familiar GUI administration interfaces, they are not simple to learn and customize.
-`collectionbuilder-gh` aims to be well documented and easy to configure by following the example.
-A project in "minimal computing", it provides a depth of learning opportunities, allowing users to take complete ownership over the project and make their work open to the world.
+Currently, Company Town Legacy includes digital history projects about Potlatch, Idaho and oral histories of Riverside Dance Hall.
 
 ## Learn about:
 
-- Git and GitHub basics for collaboration and project management
-- [Markdown](https://guides.github.com/features/mastering-markdown/) for plaintext writing and content creation
-- HTML, CSS, and JS literacy
-- commandline literacy
-- [Jekyll](https://jekyllrb.com/) basics
-- working in the Open, open source and open data
-- digital libraries concepts such as "collections as data", minimal computing, data-driven design
+For more information about this project, contact Dr. Diane Kelly-Riley, Associate Professor of English at the University of Idaho.  You can reach her at dianek@uidaho.edu or 208-885-5704.
 
 {% include credits.md %}
