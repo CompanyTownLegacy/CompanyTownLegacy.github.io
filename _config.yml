@@ -33,10 +33,10 @@ repository: https://github.com/CompanyTownLegacy.github.io
 navbar-color: navbar-dark
 # navbar background color
 # Choose from bg-primary, bg-secondary, bg-success, bg-danger, bg-warning, bg-info, bg-light, bg-dark, bg-white
-navbar-background: bg-success
+navbar-background: bg-primary
 # theme with Bootswatch (https://github.com/thomaspark/bootswatch)
 # Choose from: cerulean; cosmo; cyborg; darkly; flatly; journal; litera; lumen; lux; materia; minty; pulse; sandstone; simplex; sketchy; slate; solar; spacelab; superhero; united; yeti 
-bootswatch: # cosmo
+bootswatch: # cerulean
 
 # google services [optional!]
 # leave these blank or comment out to NOT include google code
