@@ -36,7 +36,7 @@ navbar-color: navbar-dark
 navbar-background: bg-secondary
 # theme with Bootswatch (https://github.com/thomaspark/bootswatch)
 # Choose from: cerulean; cosmo; cyborg; darkly; flatly; journal; litera; lumen; lux; materia; minty; pulse; sandstone; simplex; sketchy; slate; solar; spacelab; superhero; united; yeti 
-bootswatch: # cerulean
+bootswatch: # 
 
 # google services [optional!]
 # leave these blank or comment out to NOT include google code
