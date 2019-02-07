@@ -10,7 +10,7 @@ featured-image: "objects/test001.jpg"
 
 # About {{ site.title }}
 
-Welcome to Company Town Legacy, a site that explores what happens to a company town when the company leaves.   
+Welcome to Company Town Legacy, a site that explores what happens to a company town after the company leaves.   
 
 `Company Town Legacy` explores the lasting effects of blueprints established by corporations on towns created to support particular industries and to recruit and retain workers. 
 
