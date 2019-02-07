@@ -7,16 +7,16 @@
 # title of site appears in banner
 title: Company Town Legacy
 # tagline appears in banner
-tagline: a theme for building simple digital exhibits
+tagline: what happens to a Company Town when the company leaves?
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "CollectionBuilder-GH is a template for creating small digital collection exhibits on GitHub Pages designed for teaching digital library skills"
+description: "exploring what happens to a company town when the company leaves"
 # keywords appear in meta tags
-keywords: "university of idaho, digital collections, digital humanities"
+keywords: "potlatch idaho, digital collections, digital humanities"
 # creator of the digital collection, to appear in meta tags
 author: Diane Kelly-Riley
 # creator contact email for meta tags
-email: ewilliamson@uidaho.edu
+email: dianek@uidaho.edu
 # collection project date, when did you publish this
 collection-date: "2019"
 
