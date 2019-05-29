@@ -27,3 +27,4 @@ Digital projects related to Company Town Legacy.
     </div>
 </div>
 {% endfor %}
+</div>

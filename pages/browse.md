@@ -1,7 +1,7 @@
 ---
-title: Oral Histories
+title: Browse
 layout: browse
-permalink: /histories/
+permalink: /browse/
 ---
 
 # Oral Histories 
