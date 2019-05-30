@@ -6,7 +6,7 @@ permalink: /projects/
 
 # Digital Projects 
 
-Digital projects related to Company Town Legacy.
+Digital projects related to Company Town Legacy. Authored by University of Idaho students.
 
 <div class="row">
 {% assign projects = site.data.companytownlegacy_projects %}
