@@ -5,22 +5,14 @@
 var idx = lunr(function () {
   this.ref('id')
   this.field('title')
-  this.field('creator')
-  this.field('subjects')
-  this.field('description')
-  this.field('date')
-  this.field('place')
+  this.field('text')
 
   //this.pipeline.remove(lunr.trimmer)
 
   for (var item in store) {
     this.add({
       title: store[item].title,
-      creator: store[item].creator,
-      subjects: store[item].subjects.join("; "),
-      description: store[item].description,
-      date: store[item].date,
-      place: store[item].place,
+      creator: store[item].text,
       id: item
     })
   }
@@ -52,12 +44,9 @@ function lunr_search () {
     var searchitem =
       '<tr>'+
           '<td class="">' +
-            '<p class="h4"><a href="{{ site.baseurl }}/browse/item.html?id=' + store[ref].indexId + '">' + store[ref].title+ '</a></p>' +
+            '<p class="h4"><a href="' + store[ref].url + '">' + store[ref].title+ '</a></p>' +
             '<p class="ml-3">' +
-            store[ref].date + '. ' +
-            store[ref].description.split(" ").splice(0,20).join(" ") + '...<br>' +
-            'Subjects: ' + store[ref].subjects.join("; ") + '. ' +
-            store[ref].place +
+            store[ref].text.split(" ").splice(0,20).join(" ") +
             '</p></td>' +
       '</tr>';
     resultdiv.append(searchitem);
