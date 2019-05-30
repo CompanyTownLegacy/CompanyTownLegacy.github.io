@@ -8,14 +8,44 @@ layout: page
   <div class="col-md-8">
 
   {% include index/description.html %}
-  {% include index/carousel.html %}
+
+    <div class="row">
+      
+      <div class="col-md-6">
+        <div class="card mb-3">
+          <a href="{{ '/histories/' | relative_url }}">
+            <div class="card-body">
+              <h5 class="card-title">Riverside Oral Histories</h5>
+              <img src="{{ '/objects/RiversidebuildingcreditPotlatchHistoricalSociety.jpg' | relative_url }}" title="Riverside, Johnnie Wolheter, 1958, Potlatch Historical Society" alt="Riverside" class="img-fluid">
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card mb-3">
+          <a href="{{ '/projects/' | relative_url }}">
+            <div class="card-body">
+              <h5 class="card-title">Digital Projects</h5>
+              <img src="{{ '/objects/companytown_p1_th.jpg' | relative_url }}" title="Women of the White Pine Forest, Paul Welo, 1918, Lee Gale Scrapbooks: Plant, Potlatch Historical Society" alt="flunkies and loggerettes" class="img-fluid">
+            </div>
+          </a>
+        </div>
+      </div>
+
+    </div>
   
   </div>
-  <div class="col-md-4">  
+  <div class="col-md-4">
 
-    {% include index/time.html %}
-    {% include index/subjects.html %}
-    {% include index/locations-sm.html %}
+    <div class="card mb-3">
+      <a href="{{ '/events/' | relative_url }}">
+        <div class="card-body">
+          <h5 class="card-title">Community Events</h5>
+          <img src="{{ '/objects/lager_with_loggers_poster_blue_sm.jpg' | relative_url }}" title="Lager with loggers 2019" alt="poster" class="img-fluid">
+        </div>
+      </a>
+    </div>
 
   </div>
   
