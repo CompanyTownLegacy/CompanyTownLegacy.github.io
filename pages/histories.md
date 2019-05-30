@@ -12,15 +12,17 @@ A selection of oral histories related to Company Town Legacy. Funding provided b
 <div class="row">
 {% assign histories = site.data.companytownlegacy_oralhistories %}
 {% for h in histories %}
-<div class="item col-md-4 mb-2" >
+<div class="item col-md-6 mb-2" >
     <div class="card">
-        <div class="card-body text-center search">
-            <h3 class="card-title">{{ h.title }}</h3>
-            <img class="img-fluid p-3" src="{{ h.thumbnail | prepend: '/objects/' | relative_url }}" alt="{{ p.thumb_caption }}">
-            <p class="card-text">{{ h.description }} ({{ h.date }})</p>
-            <p>
-                <button class="btn btn-info" title="{{ h.title | escape }}" type="button" data-toggle="modal" data-target="#modal{{ h.indexid }}">View Video</button>
-            </p>
+        <div class="card-body search">
+            <div class="row">
+                <div class="col-md-6"><img class="img-fluid p-3" src="{{ h.thumbnail | prepend: '/objects/' | relative_url }}" alt="{{ p.thumb_caption }}"></div>
+                <div class="col-md-6">
+                    <h4 class="card-title">{{ h.title }}</h4>
+                    <p class="card-text">{{ h.description }} ({{ h.date }})</p>
+                    <p><button class="btn btn-info" title="{{ h.title | escape }}" type="button" data-toggle="modal" data-target="#modal{{ h.indexid }}">View Video</button></p>
+                </div>
+            </div>
         </div>
     </div>
     <!-- modal -->
