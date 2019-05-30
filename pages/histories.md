@@ -6,7 +6,8 @@ permalink: /histories/
 
 # Oral Histories 
 
-A selection of oral histories related to Company Town Legacy.
+A selection of oral histories related to Company Town Legacy. Funding provided by the Idaho Humanities Council.
+
 
 <div class="row">
 {% assign histories = site.data.companytownlegacy_oralhistories %}
