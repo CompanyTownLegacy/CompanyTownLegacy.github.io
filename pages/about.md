@@ -23,6 +23,10 @@ Such dynamics were common across the Pacific Northwest in the United States in l
 
 This project documents lives of residents in a company town and also considers what happens once the company leaves.
 
+## Articles
+
+- Diane Kelly-Riley, "Company Town Legacy: A Public Humanities Project Exploring Corporate Influences in Rural Idaho" in "Public Humanities in Action" ed. Paula M. Krebs, *MLA Profession*, Spring 2019, <https://profession.mla.org/public-humanities-in-action/>
+
 </div>
 <div class="col-md-4">
 <div class="card">
