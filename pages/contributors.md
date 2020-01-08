@@ -11,4 +11,4 @@ This page recognizes some of our contributors.
 
 {% assign people = site.data.contributors %}
 {% for p in people %}
-- {{ p.name }} {% endfor %}
+- {{ p.name }}{% if p.affiliation %}, {{ p.affiliation }}{% endif %}{% endfor %}

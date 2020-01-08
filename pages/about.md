@@ -29,7 +29,7 @@ This project documents lives of residents in a company town and also considers w
 <h5 class="card-header">Contact</h5>
 <div class="card-body" markdown="1">
 
-For more information about this project, contact Dr. Diane Kelly-Riley, Associate Professor of English at the University of Idaho.
+For more information about this project, please contact Dr. Diane Kelly-Riley, Associate Professor of English at the University of Idaho.
 
 You can reach her at dianek@uidaho.edu or 208-885-5704.
 
