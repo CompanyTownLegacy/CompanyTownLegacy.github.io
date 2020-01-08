@@ -6,12 +6,12 @@ permalink: /projects/
 
 # Digital Projects 
 
-Digital projects related to Company Town Legacy. Authored by University of Idaho students.
+Digital projects related to Company Town Legacy created by University of Idaho students.
 
 <div class="row">
 {% assign projects = site.data.companytownlegacy_projects %}
 {% for p in projects %}
-<div class="item col-md-6 col-sm-12 col-xs-12 mb-2" >
+<div class="item col-md-4 mb-2" >
     <div class="card">
         <a href="{{ p.link }}" target="_blank">
             <img class="card-img-top lazy" src="{{ p.thumbnail | prepend: '/objects/' | relative_url }}" alt="{{ p.thumb_caption }}">
@@ -21,7 +21,7 @@ Digital projects related to Company Town Legacy. Authored by University of Idaho
             <p class="card-text">{{ p.description }}</p>
             <p class="card-text">{{ p.creator }}, {{ p.date }}.</p>
             <p>
-                <a href="{{ p.link }}" target="_blank" class="btn btn-info" title="link to {{ item.title | escape }}">View Project</a>
+                <a href="{{ p.link }}" target="_blank" class="btn btn-sm btn-outline-info" title="link to {{ p.title | escape }}">View Project</a>
             </p>
         </div>
     </div>
