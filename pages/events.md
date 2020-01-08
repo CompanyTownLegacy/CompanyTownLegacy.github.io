@@ -6,7 +6,7 @@ permalink: /events/
 
 # Community Events
 
-{% assign events = site.data.events %}
+{% assign events = site.data.community_events %}
 {% for e in events %}
 <div class="card p-3 m-3">
 <div class="row">
