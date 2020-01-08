@@ -8,6 +8,9 @@ featured-image: "objects/front.jpg"
 
 {% include index/jumbotron.html %}
 
+<div class="row">
+<div class="col-md-8" markdown="1">
+
 # About {{ site.title }}
 
 Welcome to Company Town Legacy, a site that explores what happens to a company town after the company leaves.   
@@ -20,8 +23,18 @@ Such dynamics were common across the Pacific Northwest in the United States in l
 
 This project documents lives of residents in a company town and also considers what happens once the company leaves.
 
-## Learn about:
+</div>
+<div class="col-md-4">
+<div class="card">
+<h5 class="card-header">Contact</h5>
+<div class="card-body" markdown="1">
 
-For more information about this project, contact Dr. Diane Kelly-Riley, Associate Professor of English at the University of Idaho.  You can reach her at dianek@uidaho.edu or 208-885-5704.
+For more information about this project, contact Dr. Diane Kelly-Riley, Associate Professor of English at the University of Idaho.
 
+You can reach her at dianek@uidaho.edu or 208-885-5704.
+
+</div>
+</div>
+</div>
+</div>
 

@@ -4,17 +4,6 @@
 
 # Site settings
 
-# title of site appears in banner
-title: Company Town Legacy
-# tagline appears in banner
-tagline: what happens to a Company Town when the company leaves?
-# description appears in meta tags and other locations
-# this description might appear in search result lists, keep around 160 characters max
-description: "exploring what happens to a company town when the company leaves"
-# keywords appear in meta tags
-keywords: "potlatch idaho, digital collections, digital humanities"
-# creator of the digital collection, to appear in meta tags
-author: Diane Kelly-Riley
 # creator contact email for meta tags
 email: dianek@uidaho.edu
 # collection project date, when did you publish this
@@ -27,27 +16,11 @@ baseurl:
 # repository is the github repository's full url
 repository: https://github.com/CompanyTownLegacy.github.io
 
-# Featured Image
-# featured-image appears in meta tags for search and social media
-# give filename including folder
-featured-image: objects/front.jpg
-featured-image-alt: "Administration Building, University of Idaho"
-
-# Theme Options
-# navbar text color
-# Choose from "navbar-light" for use with light background colors, or "navbar-dark" for dark background colors
-navbar-color: navbar-dark
-# navbar background color
-# Choose from bg-primary, bg-secondary, bg-success, bg-danger, bg-warning, bg-info, bg-light, bg-dark, bg-white
-navbar-background: bg-secondary
-# theme with Bootswatch (https://github.com/thomaspark/bootswatch)
-# Choose from: cerulean; cosmo; cyborg; darkly; flatly; journal; litera; lumen; lux; materia; minty; pulse; sandstone; simplex; sketchy; slate; solar; spacelab; superhero; united; yeti 
-bootswatch: # 
-
-# google services [optional!]
-# leave these blank or comment out to NOT include google code
-google-tracking-id: 
-# google-cse-id: "002151703305773322890:1pu3smhw1t8"
+# Site settings
+title: Company Town Legacy
+# header and head metadata
+tagline: what happens to a Company Town when the company leaves?
+description: "A community history project exploring what happens to a company town when the company leaves" 
 
 # build settings
 permalink: pretty
