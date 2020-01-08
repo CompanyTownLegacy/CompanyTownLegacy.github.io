@@ -9,7 +9,7 @@ permalink: /projects/
 Digital projects related to Company Town Legacy created by University of Idaho students.
 
 <div class="row">
-{% assign projects = site.data.companytownlegacy_projects %}
+{% assign projects = site.data.digital_projects %}
 {% for p in projects %}
 <div class="item col-md-4 mb-2" >
     <div class="card">
