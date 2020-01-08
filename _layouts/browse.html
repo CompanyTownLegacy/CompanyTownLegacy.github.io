@@ -60,13 +60,8 @@ layout: page
                     <a class="btn btn-sm btn-secondary m-1 filter text-wrap" href="{{ b | strip | url_param_escape | prepend: '/browse/#' | relative_url }}">{{ b }}</a> 
                     {% endif %}{% endfor %} 
                 </p>
-                <p class="card-text">
-                    {% if site.data.theme.mediatypes contains ";" %}
-                    <small><a href="{{ extension | prepend: '/browse/#' | relative_url }}" class="filter btn btn-sm btn-outline-secondary">{{ extension | upcase }} <span class="far {% if item.format contains 'image' %}fa-image{% elsif item.format contains 'audio' %}fa-file-audio{% elsif item.format contains 'video' %}fa-file-video{%else%}fa-file{% endif %}"></span></a></small>{% endif %}
-                    <span class="hidden-format-for-browse">{{format-for-browse | replace: "application", "application document"}}</span>
-                </p>
                
-                <hr/>
+                <hr>
                 <p>
                     <a href="{{ '/browse/item.html' | absolute_url | append: '?id=' | append: item.objectid }}" class="btn btn-sm btn-light text-primary" title="link to {{ item.title | escape }}">View Full Record </a>
                 </p>
